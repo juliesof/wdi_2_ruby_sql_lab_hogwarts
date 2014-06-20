@@ -46,6 +46,8 @@ There does not (yet) need to be a way to manipulate these lists of objects, othe
 
 In a `.sql` file, write commands that will insert a variety of data into the database you created in Step 1. Make sure you have several houses and several spells in various categories, with each house having several students and each student knowing several spells (appropriate to their year level) with varying degrees of proficiency.
 
+write in your own ids so that you know what the foreign keys are
+
 Then, in a `.rb` file, require the classes you created in Step 2 and write code that will create a mirror of your SQL data as Ruby objects. Of course, unlike your SQL data this will not be saved anywhere, but run your file with a `binding.pry` at the end to make sure it works.
 
 ## Step 4: Queries
